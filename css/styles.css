@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Style */
+
+@font-face {
+    font-family: Kanit;
+    src: url(../font/Kanit-Regular.woff);
+}
+
+body {
+    font-family: Kanit;
+    background-color: hsl(210, 50%, 85%);
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+main {
+    width: 375px;
+    margin: auto;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+/* qr-code */
+img {
+    border-radius: 10px;
+    margin: 0.85rem;
+    height: 350px;
+    width: 350px;
+    max-width: 100%;
+    justify-items: center;
+}
+
+/* text */
+.heading {
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    color: hsl(218, 44%, 22%);
+    max-width: 100%;
+}
+
+.paragraph {
+    margin-bottom: 2rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+}    
